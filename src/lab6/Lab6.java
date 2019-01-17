@@ -51,6 +51,12 @@ public class Lab6 {
 			else if ((dieRoll1 == 6) && (dieRoll2 == 6)) {
 				return "You rolled boxcars!";
 			}
+			else if ((dieRoll1 == 1) && (dieRoll2 == 2)) {
+				return "You rolled craps!";
+			}
+			else if ((dieRoll1 == 2) && (dieRoll2 == 1)) {
+				return "You rolled craps!";
+			}
 			else {
 				return null;
 			}
